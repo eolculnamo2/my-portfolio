@@ -1,0 +1,50 @@
+@import '../../../global.scss';
+
+.Home_wrap {
+    margin-top: 1.5em;
+    font-weight: 600;
+    h1 {
+        margin-bottom: .5em;
+    }   
+}
+
+.Home_profile-img {
+    width: 300px;
+    box-shadow: 0 2px 2px $dark1;
+    float: left;
+    margin-right: 3em;
+    border: 2px solid #dadada;
+}
+.Home__top-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--main {
+        margin-bottom: 2em;
+        border-bottom: 4px solid $primary-dark;
+    }
+}
+.Home__skill-img {
+    width: 100px;
+}
+
+.Home__skill-block {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: auto;
+    padding: 2em;
+    border: 1px solid $primary-dark;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px $dark1;
+}
+
+h3 {
+    border-top: 4px solid $primary-dark;
+    padding-top:.5em;
+    text-align: center;
+    margin-bottom: .5em;
+}

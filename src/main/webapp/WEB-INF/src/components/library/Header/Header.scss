@@ -1,0 +1,41 @@
+@import '../../../global';
+
+.Header__main-wrap {
+    background: $primary;
+    padding: 1.5em 3em;
+    height: 10vh;
+    box-shadow: 0 2px 2px $dark1;
+    height: auto;
+    //display: flex;
+    //justify-content: center;
+   // align-content: center;
+
+    p {
+        margin: 0;
+    }
+}
+
+.Header__flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    min-width: 35vw;
+    margin: .5em 0;
+
+    li {
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.Header__margin-auto {
+    margin: auto;
+}

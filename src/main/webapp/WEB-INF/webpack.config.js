@@ -38,7 +38,7 @@ const browserConfig = {
 const serverConfig = {
     entry: './src/server.js',
     output: {
-        path: path.resolve('./src'),
+        path: path.resolve('./public'),
         filename: 'serverbuild.js'
     },
     module: {
@@ -54,7 +54,7 @@ const serverConfig = {
             },
             {
                 test: /\.scss$/,
-                loader: 'style-loader!css-loader!sass-loader'
+                loader: 'css-loader!sass-loader'
             }
         ]
     }

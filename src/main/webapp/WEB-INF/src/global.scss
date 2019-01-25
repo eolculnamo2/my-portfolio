@@ -1,0 +1,25 @@
+$primary: #64aa82;
+$primary-light: #94dcb2;
+$primary-dark: #357a55;
+
+$secondary: #0059aa;
+$secondary-light: #5385dc;
+$secondary-dark: #00317a;
+
+$dark1: #333;
+$dark2: #555;
+$dark3: #999;
+
+$font-color1: white;
+
+//element defaults
+
+h1 {
+    margin: 0;
+}
+
+//global classes
+.max-layout {
+    max-width: 1200px;
+    margin: auto;
+}
