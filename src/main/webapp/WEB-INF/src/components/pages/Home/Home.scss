@@ -3,9 +3,6 @@
 .Home_wrap {
     margin-top: 1.5em;
     font-weight: 600;
-    h1 {
-        margin-bottom: .5em;
-    }   
 }
 
 .Home_profile-img {
@@ -30,21 +27,77 @@
 }
 
 .Home__skill-block {
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    width: 700px;
+    
+    width:100%;
     margin: auto;
-    padding: 2em;
+    padding: 2.5em;
+    background: $primary-light;
+    box-sizing: border-box;
+    color: white;
     border: 1px solid $primary-dark;
-    justify-content: space-between;
-    box-shadow: 0 1px 2px $dark1;
+    
+    box-shadow: 0 3px 2px $dark3;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
-h3 {
-    border-top: 4px solid $primary-dark;
-    padding-top:.5em;
+.Home_about-section-wrap {
+    border-bottom: 4px solid $primary-dark;
+    margin-bottom: 2em;
+    color: #00363a;
+}
+
+.Home__about-me {
+    background: $primary-xtra-light;
+    padding: .25em;
+    color: $primary;
+    border-radius: 4px;
+}
+
+.Home__h3-title {
+    margin-top:0;
+    padding:.5em 0;
+    margin-bottom: 2em !important;
+    border-bottom: 4px solid $primary-dark;
     text-align: center;
     margin-bottom: .5em;
+}
+
+.Home__articles-title {
+    margin-top: 1.25em;
+    color: $primary;
+    border-bottom: 4px solid $primary-dark;
+}
+
+.Home__articles-wrap {
+    background: $primary-xtra-light;
+    padding: 1em;
+    color: $primary;
+    border: 1px dashed $primary-dark;
+    border-top: 0;
+    box-shadow: 0 3px 2px $dark3;
+    h3 {
+        margin-bottom: .2em;
+        text-decoration: underline;
+        cursor: pointer;
+        &:hover {
+            color: $primary-light;
+        }
+    }
+    p {
+        margin-top: 0;
+    }
+}
+
+.Home__projects-wrap {
+    margin-top: 1.25em;
 }

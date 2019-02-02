@@ -1,0 +1,29 @@
+@import '../../../global';
+
+.Footer__wrap {
+    height: 10vh;
+    background: $primary-xtra-light;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2em;
+    border-top: 2px solid $primary-dark;
+    color: $primary;
+    ul {
+        width: 350px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        li {
+            padding: .25em;
+            &:hover {
+                background: #a8d6d5;
+               // color: white;
+            }
+        }
+    }
+}

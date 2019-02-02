@@ -1,6 +1,11 @@
-$primary: #64aa82;
-$primary-light: #94dcb2;
-$primary-dark: #357a55;
+$primary: #006064;
+$primary-light:#428e92;
+$primary-dark: #00363a;
+$primary-xtra-light: #CCDCDE;
+
+$l-primary: #b2dfdb; 
+$l-primary-light: #e5ffff;
+$l-primary-dark: #82ada9;
 
 $secondary: #0059aa;
 $secondary-light: #5385dc;
@@ -22,4 +27,8 @@ h1 {
 .max-layout {
     max-width: 1200px;
     margin: auto;
+}
+
+a {
+    color: inherit;
 }
